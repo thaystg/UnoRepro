@@ -1,0 +1,10 @@
+{
+  "background_color": "#ffffff",
+  "description": "ResourcePlanner",
+  "display": "standalone",
+  "name": "ResourcePlanner",
+  "short_name": "ResourcePlanner",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/"
+}
