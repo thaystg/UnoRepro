@@ -3,25 +3,25 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C9B82129-4963-46A2-9A6E-F99ABB01F220}</ProjectGuid>
+    <ProjectGuid>{B896FB11-570F-4B0B-8827-16C0C6B735DA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UnoWordWebAddIn1</RootNamespace>
-    <AssemblyName>UnoWordWebAddIn1</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>UnoWordLoader</RootNamespace>
+    <AssemblyName>UnoWordLoader</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <TargetOfficeVersion>15.0</TargetOfficeVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
-    <AppFeaturePartId>{f32d919b-c961-4180-9db5-bb8a4296e465}</AppFeaturePartId>
-    <WspPartId>{364c9085-b250-45d1-8808-50d1350bbef3}</WspPartId>
-    <WorkflowPartId>{299336c4-068e-4444-9ef8-5e988b92d2f3}</WorkflowPartId>
-    <CspkgPartId>{47c7344e-691a-4aa9-b436-08db7ffadaf6}</CspkgPartId>
-    <SqlPackagePartId>{2ab0722d-1eb6-442e-aad7-92f03176ff93}</SqlPackagePartId>
+    <AppFeaturePartId>{68dd5bc0-cadd-4934-9d37-50f3d17518f4}</AppFeaturePartId>
+    <WspPartId>{45941fff-1a4b-4b9f-aadb-ae1143a752ee}</WspPartId>
+    <WorkflowPartId>{055e28b8-e813-418e-8b92-cdea455d22fe}</WorkflowPartId>
+    <CspkgPartId>{344f9ff3-6df2-4588-b717-edbb8d0612a7}</CspkgPartId>
+    <SqlPackagePartId>{8c3db648-95f9-4f12-b379-8fb5db36bb90}</SqlPackagePartId>
     <ProjectMode>OfficeApp</ProjectMode>
     <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
     <MinimumOfficeToolsVersion>14.0</MinimumOfficeToolsVersion>
-    <CoreWebProject>..\UnoApp1\UnoApp1\UnoApp1.csproj</CoreWebProject>
+    <CoreWebProject>..\UnoApp1\UnoApp1.csproj</CoreWebProject>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -43,10 +43,10 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="UnoWordWebAddIn1Manifest\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{77be8f28-786e-46dd-b80e-5c28428d594e}</SharePointProjectItemId>
+    <None Include="UnoWordLoaderManifest\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2d607a27-479b-45fc-afe6-4ca47fce8f4c}</SharePointProjectItemId>
     </None>
-    <Content Include="UnoWordWebAddIn1Manifest\UnoWordWebAddIn1.xml">
+    <Content Include="UnoWordLoaderManifest\UnoWordLoader.xml">
       <OpcRelationship>manifest-oemanifest</OpcRelationship>
     </Content>
   </ItemGroup>

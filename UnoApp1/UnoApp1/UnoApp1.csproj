@@ -41,6 +41,7 @@
       Navigation;
     </UnoFeatures>
     <TargetOfficeVersion>15.0</TargetOfficeVersion>
+      <MonoRuntimeDebuggerEnabled>true</MonoRuntimeDebuggerEnabled>
   </PropertyGroup>
 
 </Project>
