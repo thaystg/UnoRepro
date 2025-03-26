@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <GeneratedFeatureId>ebf7436a-f03b-422d-9380-2818a9a87634</GeneratedFeatureId>
+    <GeneratedPackageId>c7621045-0e98-4ef9-ae34-ce238c1b848a</GeneratedPackageId>
+    <GeneratedModuleId>{d4852481-b4d4-46d1-991b-5a7e413528a6}</GeneratedModuleId>
+    <GeneratedListId>{56e44d34-4c95-4b95-8024-d9e252dc943c}</GeneratedListId>
+    <GeneratedProductId>{61405e97-ebba-4198-b277-5a131265f278}</GeneratedProductId>
+    <GeneratedAppVersion>1.0.0.0</GeneratedAppVersion>
+    <GeneratedClientSecret>4BZu0NVK68XJg6celI+Dh3bS5EplLtNeUdE7fEMbeTk=</GeneratedClientSecret>
+    <BlazorAppUrl>https://localhost:55183/</BlazorAppUrl>
+    <InspectUri>{wsProtocol}://{url.hostname}:{url.port}/_framework/debug/ws-proxy?browser={browserInspectUri}</InspectUri>
+  </PropertyGroup>
+</Project>
